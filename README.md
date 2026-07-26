@@ -74,7 +74,7 @@ Built with **Ghana Athletics** and **SEED Afrique**.
 - PruRide Ghana
 - Tour du Ghana
 
-Same platform, UCI conventions instead of World Athletics ones.
+Built to follow UCI conventions.
 
 </td>
 </tr>
