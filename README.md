@@ -9,12 +9,12 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0A0A0B,50:14B8A6,100:D4AF37&text=Takyi&fontColor=ffffff&fontSize=70&fontAlignY=32&desc=Sports%20Data%20Infrastructure%20for%20Africa&descSize=16&descAlignY=52&animation=fadeIn" width="100%" />
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3200&pause=900&color=D4AF37&center=true&vCenter=true&width=700&lines=Founder+%26+Solo+Engineer+%40+SportCache;Live+timing%2C+results+%26+broadcast+for+African+athletics;FastAPI+%C2%B7+Next.js+%C2%B7+Postgres+%C2%B7+scikit-learn;Final-year+Computer+Science+%40+University+of+Ghana)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3200&pause=900&color=D4AF37&center=true&vCenter=true&width=700&lines=Technical+Co-founder+%40+SportCache;Live+timing+%26+results+for+athletics+and+cycling;I+build+the+software%2C+and+I+officiate+the+sport;Computer+Science+%40+University+of+Ghana)
 
 <p>
   <a href="https://sportcache.com"><img src="https://img.shields.io/badge/SportCache-D4AF37?style=for-the-badge&logoColor=0A0A0B&labelColor=0A0A0B" /></a>
-  <a href="https://docs.sportcache.com"><img src="https://img.shields.io/badge/API_Docs-14B8A6?style=for-the-badge&logoColor=white&labelColor=0A0A0B" /></a>
-  <a href="mailto:YOUR_EMAIL_HERE"><img src="https://img.shields.io/badge/Get_in_touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0A0B" /></a>
+  <a href="https://api.sportcache.com"><img src="https://img.shields.io/badge/The_API-14B8A6?style=for-the-badge&logoColor=white&labelColor=0A0A0B" /></a>
+  <a href="mailto:emmanuelcrash945@gmail.com"><img src="https://img.shields.io/badge/Get_in_touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0A0B" /></a>
 </p>
 
 <p>
@@ -29,17 +29,21 @@
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> whoami
 
-I build the software that runs athletics meets. Live timing ingestion, results, broadcast graphics, and the API other people build on top of. It's called **SportCache**, I'm the only engineer on it, and it's been live at real championships across Ghana and the wider continent.
+I'm Emmanuel Takyi Obodai, technical co-founder of **SportCache**. I build the software that runs athletics and cycling competitions: live timing ingestion straight off photo-finish hardware, results publishing, and the public API other people build on top of.
 
-Most sports data infrastructure was never built with African federations in mind. So I built it.
+The part that makes the work different is that I don't just write it. I'm a certified technical official, so I've stood on the track at the same championships my systems were running. The rules the software has to encode are rules I've had to apply under pressure with a stadium waiting.
+
+Most sports data infrastructure was never built with African federations in mind. That's the gap we're closing.
 
 ```ts
 const takyi = {
-  role:      "Founder & Solo Engineer, SportCache",
+  name:      "Emmanuel Takyi Obodai",
+  role:      "Technical Co-founder & Engineer, SportCache",
   location:  "Accra, Ghana 🇬🇭",
-  studying:  "BSc Computer Science, University of Ghana (final year)",
-  building:  ["live timing pipelines", "sports APIs", "broadcast overlays", "ML on race data"],
-  stack:     ["Python", "TypeScript", "FastAPI", "Next.js", "Postgres"],
+  studying:  "BSc Computer Science + Statistics, University of Ghana",
+  alsoDoes:  "Technical Official, Senior African Athletics Championship",
+  building:  ["live timing pipelines", "athletics & cycling APIs", "ML on race data"],
+  stack:     ["Python", "TypeScript", "FastAPI", "Next.js", "React", "Postgres"],
   standards: ["World Athletics", "UCI"],
   hardware:  ["Vsports PT-600 photo-finish", "Lynx timing systems"],
   openTo:    "sports tech, data infrastructure, backend & full-stack contracts",
@@ -50,28 +54,27 @@ const takyi = {
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> SportCache
 
-> Data infrastructure for athletics and cycling events across Africa. Built solo, deployed at real meets.
+> Data infrastructure for athletics and cycling across Africa. I lead the engineering.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🏟️ Live at real competitions
+### 🏟️ Athletics
+- Senior African Athletics Championship 2026
 - Accra Open Championship
-- Senior African Athletics Championship
 - Cape Coast Open Championship
-- PruRide Ghana · Tour du Ghana (cycling)
 
-Partnered with **SEED Afrique** and **Ghana Athletics**.
+Built with **Ghana Athletics** and **SEED Afrique**.
 
 </td>
 <td width="50%" valign="top">
 
-### 🧩 What's under the hood
-- Photo-finish ingestion over TCP push and LIF file watching
-- World Athletics compliant result models end to end
-- Real-time fan-out to overlays and public clients
-- Full event management, not just a results board
+### 🚴 Cycling
+- PruRide Ghana
+- Tour du Ghana
+
+Same platform, UCI conventions instead of World Athletics ones.
 
 </td>
 </tr>
@@ -81,10 +84,8 @@ Partnered with **SEED Afrique** and **Ghana Athletics**.
 
 | Service | What it does | Stack |
 |:--|:--|:--|
-| `athletics.sportcache.com` | Live results and event management | Next.js · Node · Postgres |
-| `api.sportcache.com` | Public REST API, sport-namespaced and versioned | FastAPI · Postgres |
-| `broadcast.sportcache.com` | Real-time TV overlay system for live streams | Next.js · Supabase Realtime · GSAP |
-| `docs.sportcache.com` | OpenAPI 3.1 spec, rendered with Scalar | YAML · Scalar |
+| `athletics.sportcache.com` | Live results and event management for meets | Next.js · Node · Postgres |
+| `api.sportcache.com` | Public REST API for athletics and cycling, sport-namespaced and versioned | FastAPI · Postgres · OpenAPI 3.1 |
 
 <details>
 <summary><b>Design decisions I'd defend in a room</b></summary>
@@ -96,6 +97,10 @@ Partnered with **SEED Afrique** and **Ghana Athletics**.
 **Model the messy reality.** DNS, DNF, DSQ, NM, NH, OTL, Q and q flags, record markers, combined-event scoring. Athletics is full of edge cases that only exist because someone got injured at 400m. The schema handles them as first-class states, not nulls.
 
 **Elapsed time is the source of truth.** Wall clock is a lie in timing systems. Everything anchors to the start trigger.
+
+**One platform, two rulebooks.** Athletics follows World Athletics conventions, cycling follows UCI. Sport-namespaced routes mean neither has to bend to fit the other.
+
+**The rules are not optional.** Medal tables count finals only. Grouping is by country for international meets and by affiliation for domestic ones. Combined Masters categories take the lowest band. Getting these wrong is how a results system loses a federation's trust.
 
 **Design tokens before pixels.** Gold `#D4AF37`, black `#0A0A0B`, teal `#14B8A6`. Barlow Condensed for display, Inter for body, JetBrains Mono for code. One system, every surface.
 
@@ -121,26 +126,36 @@ An analytics, prediction and anomaly detection layer sitting on top of the live 
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 🍽️ Nexpace POS
-Full restaurant management platform. Cashier, kitchen display, dispatch, self-serve kiosk, owner dashboard, and a rider PWA. Real-time order flow across every screen.
+### 🎫 SEED Afrique Membership System
+Full-stack platform handling membership requests and approvals for a pan-African organisation. Cut admin turnaround time by 30%. Firebase analytics wired in so decisions run on numbers instead of guesses.
 
-`Node` `Express` `Next.js 15` `Postgres` `Socket.io` `Paystack` `Twilio`
+`React` `Node.js` `MongoDB` `Firebase`
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 📄 Timing PDF pipeline
-Parser for Lynx timing exports across three meet result sets, turning locked PDFs into a structured workbook of 632 athlete rows. Used to run a national invitational selection process.
+### 🎓 European School of Business & Diplomacy
+Led the full redevelopment of the institution's website. Rebuilt site architecture, tightened security, reworked SEO, and shipped new enrollment and content-management features with academic and admin teams.
+
+`Next.js` `React` `Node.js`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📄 Lynx timing PDF pipeline
+Parser that pulled structured data out of locked Lynx timing exports across three meet result sets, producing a 632-row athlete workbook. Used to run a national invitational selection process.
 
 `Python` `pdfplumber` `openpyxl`
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 🥇 Combined events scoring
-TypeScript implementation of the World Athletics decathlon and heptathlon scoring formula with the full constants table. Points computed on demand, per event, per performance.
+TypeScript implementation of the official World Athletics decathlon scoring formula with the full constants table. Points computed on demand, per event, per performance.
 
 `TypeScript`
 
@@ -156,11 +171,11 @@ TypeScript implementation of the World Athletics decathlon and heptathlon scorin
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,ts,js,cpp&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,ts,js,html,css&theme=dark" />
 
 **Backend & Data**
 
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,supabase,mongodb,sklearn&theme=dark" />
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,supabase,mongodb,firebase,mysql,sklearn&theme=dark" />
 
 **Frontend**
 
@@ -173,8 +188,19 @@ TypeScript implementation of the World Athletics decathlon and heptathlon scorin
 </div>
 
 <div align="center">
-<sub>Also: Supabase Realtime · GSAP · Socket.io · Coolify on Hetzner · Scalar / OpenAPI 3.1 · pnpm · Paystack</sub>
+<sub>Also: OpenAPI 3.1 · Coolify on Hetzner · pandas · NumPy · UI/UX · Agile</sub>
 </div>
+
+---
+
+## <img src="https://media.giphy.com/media/l0HlN5Y28D9MzzcRy/giphy.gif" width="28"> Trackside
+
+The credentials that make the software better:
+
+- 🏅 **Technical Official** · Senior African Athletics Championship (2026)
+- 🏅 **Discipline Technical Official** · All African Games, Ghana (2024)
+
+I've officiated at the same championships my systems were timing. Every edge case in the schema exists because I've watched it happen on a track.
 
 ---
 
@@ -195,9 +221,9 @@ TypeScript implementation of the World Athletics decathlon and heptathlon scorin
 
 ## <img src="https://media.giphy.com/media/Cn92FbGqQnaLC/giphy.gif" width="28"> Beyond the code
 
-Robotics background, which is where the interest in hardware talking to software started. A stretch of WhatsApp bot work with Baileys before that. Coursework across CCNA routing and switching, image processing, intelligent agents, statistical inference, and data science, most of which ends up feeding back into SportCache one way or another.
+Spent a year and a bit as a robotics tutor and STEM educator, running Saturday sessions teaching kids and senior high students the fundamentals of robotics and programming. Still volunteer where I can: Coolest Projects Ghana, Mobile Web Ghana, and the Ghana Robotics Competition.
 
-I write about the African sports tech space too, because the gap between what federations need and what exists is worth talking about out loud.
+That's also where the interest in hardware talking to software started, which is more or less the whole job now.
 
 ---
 
@@ -208,7 +234,7 @@ I write about the African sports tech space too, because the gap between what fe
 If you're working on sports technology, live data infrastructure, or anything in African tech that needs a backend built properly, my inbox is open.
 
 <p>
-  <a href="mailto:YOUR_EMAIL_HERE"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0A0B" /></a>
+  <a href="mailto:emmanuelcrash945@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0A0B" /></a>
   <a href="https://sportcache.com"><img src="https://img.shields.io/badge/SportCache-D4AF37?style=for-the-badge&logoColor=0A0A0B&labelColor=0A0A0B" /></a>
   <a href="https://linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0B" /></a>
   <a href="https://x.com/YOUR_HANDLE"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0A0A0B" /></a>
