@@ -236,8 +236,8 @@ If you're working on sports technology, live data infrastructure, or anything in
 <p>
   <a href="mailto:emmanuelcrash945@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0A0B" /></a>
   <a href="https://sportcache.com"><img src="https://img.shields.io/badge/SportCache-D4AF37?style=for-the-badge&logoColor=0A0A0B&labelColor=0A0A0B" /></a>
-  <a href="https://linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0B" /></a>
-  <a href="https://x.com/YOUR_HANDLE"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0A0A0B" /></a>
+  <a href="https://linkedin.com/in/emmanuel-takyi-obodai-6622452a8"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0B" /></a>
+  <!-- <a href="https://x.com/YOUR_HANDLE"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0A0A0B" /></a> -->
 </p>
 
 <sub><i>Building the data layer for African sport, one meet at a time.</i></sub>
